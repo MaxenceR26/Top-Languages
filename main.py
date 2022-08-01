@@ -8,10 +8,10 @@ data = {"javascript": 17400000, "python": 15700000, "java": 14000000, "c/c++": 1
 number = []
 
 for element in data:
-    print("{}:{}".format(element, data[element]))
+    # print("{}:{}".format(element, data[element]))
     number.append(data[element])
 
-print('---')
+# print('---')
 total = sum(number)
 for element in range(len(number)):
     calcul = sumWithPerfection(100 * number[element] / total, 1)
